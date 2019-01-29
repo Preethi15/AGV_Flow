@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MFG Suite" duration-ms="687695" started-at="2018-08-13T05:22:57Z" finished-at="2018-08-13T05:34:25Z">
+    <groups>
+    </groups>
+    <test name="AGVFLOW" duration-ms="687695" started-at="2018-08-13T05:22:57Z" finished-at="2018-08-13T05:34:25Z">
+      <class name="com.volvo.mfg.test.TestShortageDelivery">
+        <test-method status="PASS" signature="startTest(java.lang.String)[pri:0, instance:com.volvo.mfg.test.TestShortageDelivery@4678c730]" name="startTest" is-config="true" duration-ms="15927" started-at="2018-08-13T10:52:57Z" finished-at="2018-08-13T10:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.mfg.test.TestShortageDelivery@4678c730]" name="setUp" is-config="true" duration-ms="156" started-at="2018-08-13T10:53:13Z" finished-at="2018-08-13T10:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InitTestMethod(java.lang.reflect.Method)[pri:0, instance:com.volvo.mfg.test.TestShortageDelivery@4678c730]" name="InitTestMethod" is-config="true" duration-ms="15" started-at="2018-08-13T10:53:13Z" finished-at="2018-08-13T10:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.volvo.mfg.test.TestShortageDelivery.ShortageFlows(java.util.LinkedHashMap) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="PASS" signature="ShortageFlows(java.util.LinkedHashMap)[pri:0, instance:com.volvo.mfg.test.TestShortageDelivery@4678c730]" name="ShortageFlows" duration-ms="670551" started-at="2018-08-13T10:53:13Z" description="ShortageDelivery" data-provider="TestDataProvider" finished-at="2018-08-13T11:04:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_No=TC_01, TestCase_Name=ShortageFlows, Execution_Status=Yes, UserName=pmadhesh, Password=8t1p0h2w@ptissu0gnunAe, Expected=VCT MAS Menu, FID=600016, objectId=, Plant=, Actor=, ChangeColor=background-color:rgb(205,255,205);, TaskId=, FPOS=, TPOS=, PartNumber=, Factory=alla, FlowType=rcpas, TaskType=aktiva, CreatedFromDate=, CreatedToDate=, ShowEntries=, IN1=1374385916, IN2=2075482382, IN3=1693746289, Select_Work_Area_Room=TA FABRIK:AGV_Forklift,TA FABRIK:AGV_AGV, Select_Work_Area_Zones=#REF!, Shortage_Type_Expected=AGVFKOLL,AGVEKOLL, Full_Task_1=, Empty_Task_1=, Object=, No_of_Racks=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShortageFlows -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.volvo.mfg.test.TestShortageDelivery@4678c730]" name="cleanUp" is-config="true" duration-ms="827" started-at="2018-08-13T11:04:24Z" finished-at="2018-08-13T11:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.volvo.mfg.test.TestShortageDelivery@4678c730]" name="afterMethods" is-config="true" duration-ms="0" started-at="2018-08-13T11:04:24Z" finished-at="2018-08-13T11:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestShortageDelivery@4678c730]" name="endTest" is-config="true" duration-ms="0" started-at="2018-08-13T11:04:25Z" finished-at="2018-08-13T11:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.volvo.mfg.test.TestShortageDelivery -->
+    </test> <!-- AGVFLOW -->
+  </suite> <!-- MFG Suite -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MFG Suite]" parallel="tests">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test thread-count="2" name="AGVFLOW_Test2(failed)" parallel="methods">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.volvo.mfg.test.TestLoginPages">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+          <include name="MfgLogin"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="startTest"/>
+          <include name="InitTestMethod"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.test.TestLoginPages -->
+    </classes>
+  </test> <!-- AGVFLOW_Test2(failed) -->
+  <test thread-count="2" name="AGVFLOW_Test1(failed)" parallel="methods">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.volvo.mfg.test.TestLoginPages">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+          <include name="MfgLogin"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="startTest"/>
+          <include name="InitTestMethod"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.test.TestLoginPages -->
+    </classes>
+  </test> <!-- AGVFLOW_Test1(failed) -->
+</suite> <!-- Failed suite [MFG Suite] -->

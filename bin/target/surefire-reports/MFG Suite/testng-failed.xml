@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [MFG Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="AGVFLOW(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.volvo.mfg.test.TestAssignmentDelivery">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="AssignmentFlows" invocation-numbers="0"/>
+          <include name="startTest"/>
+          <include name="InitTestMethod"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.test.TestAssignmentDelivery -->
+    </classes>
+  </test> <!-- AGVFLOW(failed) -->
+</suite> <!-- Failed suite [MFG Suite] -->

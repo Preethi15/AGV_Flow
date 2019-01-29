@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MFG Suite" duration-ms="884" started-at="2018-07-26T11:14:29Z" finished-at="2018-07-26T11:14:30Z">
+    <groups>
+    </groups>
+    <test name="AGVFLOW_Test2" duration-ms="880" started-at="2018-07-26T11:14:29Z" finished-at="2018-07-26T11:14:30Z">
+      <class name="com.volvo.mfg.test.TestLoginPages">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="setUp" is-config="true" duration-ms="419" started-at="2018-07-26T11:14:29Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="InitTestMethod(java.lang.reflect.Method)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="InitTestMethod" is-config="true" duration-ms="3" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.volvo.mfg.test.TestLoginPages.MfgLogin(java.util.LinkedHashMap) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.volvo.ncl.reports.Reports.startTestCase(Reports.java:36)
+at com.volvo.mfg.test.TestBase.InitTestMethod(TestBase.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="SKIP" signature="startTest(java.lang.String)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="startTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="SKIP" signature="MfgLogin(java.util.LinkedHashMap)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="MfgLogin" duration-ms="0" started-at="2018-07-26T11:14:30Z" data-provider="TestDataProvider" finished-at="2018-07-26T11:14:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.volvo.ncl.reports.Reports.startTestCase(Reports.java:36)
+at com.volvo.mfg.test.TestBase.InitTestMethod(TestBase.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MfgLogin -->
+        <test-method status="SKIP" signature="afterMethods()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="afterMethods" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="endTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="SKIP" signature="InitTestMethod(java.lang.reflect.Method)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="InitTestMethod" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="SKIP" signature="startTest(java.lang.String)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="startTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="SKIP" signature="MfgLogin(java.util.LinkedHashMap)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="MfgLogin" duration-ms="0" started-at="2018-07-26T11:14:30Z" data-provider="TestDataProvider" finished-at="2018-07-26T11:14:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.volvo.ncl.reports.Reports.startTestCase(Reports.java:36)
+at com.volvo.mfg.test.TestBase.InitTestMethod(TestBase.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MfgLogin -->
+        <test-method status="SKIP" signature="afterMethods()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="afterMethods" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="endTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@167fdd33]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.volvo.mfg.test.TestLoginPages -->
+    </test> <!-- AGVFLOW_Test2 -->
+    <test name="AGVFLOW_Test1" duration-ms="737" started-at="2018-07-26T11:14:29Z" finished-at="2018-07-26T11:14:30Z">
+      <class name="com.volvo.mfg.test.TestLoginPages">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="setUp" is-config="true" duration-ms="423" started-at="2018-07-26T11:14:29Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="InitTestMethod(java.lang.reflect.Method)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="InitTestMethod" is-config="true" duration-ms="2" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.volvo.mfg.test.TestLoginPages.MfgLogin(java.util.LinkedHashMap) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.volvo.ncl.reports.Reports.startTestCase(Reports.java:36)
+at com.volvo.mfg.test.TestBase.InitTestMethod(TestBase.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="SKIP" signature="startTest(java.lang.String)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="startTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="SKIP" signature="MfgLogin(java.util.LinkedHashMap)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="MfgLogin" duration-ms="0" started-at="2018-07-26T11:14:30Z" data-provider="TestDataProvider" finished-at="2018-07-26T11:14:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.volvo.ncl.reports.Reports.startTestCase(Reports.java:36)
+at com.volvo.mfg.test.TestBase.InitTestMethod(TestBase.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MfgLogin -->
+        <test-method status="SKIP" signature="afterMethods()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="afterMethods" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="endTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="SKIP" signature="InitTestMethod(java.lang.reflect.Method)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="InitTestMethod" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="SKIP" signature="startTest(java.lang.String)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="startTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="SKIP" signature="MfgLogin(java.util.LinkedHashMap)[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="MfgLogin" duration-ms="0" started-at="2018-07-26T11:14:30Z" data-provider="TestDataProvider" finished-at="2018-07-26T11:14:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.volvo.ncl.reports.Reports.startTestCase(Reports.java:36)
+at com.volvo.mfg.test.TestBase.InitTestMethod(TestBase.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MfgLogin -->
+        <test-method status="SKIP" signature="afterMethods()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="afterMethods" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="endTest" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:com.volvo.mfg.test.TestLoginPages@7494e528]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-07-26T11:14:30Z" finished-at="2018-07-26T11:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.volvo.mfg.test.TestLoginPages -->
+    </test> <!-- AGVFLOW_Test1 -->
+  </suite> <!-- MFG Suite -->
+</testng-results>
